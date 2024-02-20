@@ -4,6 +4,12 @@
  */
 package com.mycompany.a4socketsudp;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 /**
  *
  * @author Danielaa
