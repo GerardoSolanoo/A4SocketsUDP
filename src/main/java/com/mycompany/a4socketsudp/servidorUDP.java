@@ -117,7 +117,7 @@ public class ServidorUDP {
                     + puertoCliente + "\tEntrada = " + tmpCliente + ", " + hmdCliente + ", " + co2Cliente
                     + "\tSalida = " + resultadoTmp + ", " + resultadoHmd + ", " + resultadoCo2);
         } catch (IOException | NumberFormatException e) {
-            Logger.getLogger(servidorUDP.class.getName()).log(Level.SEVERE, null, e);
+            Logger.getLogger(ServidorUDP.class.getName()).log(Level.SEVERE, null, e);
         }
 
     }
