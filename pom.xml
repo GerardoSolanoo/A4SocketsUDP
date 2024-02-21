@@ -11,4 +11,12 @@
         <maven.compiler.target>11</maven.compiler.target>
         <exec.mainClass>com.mycompany.a4socketsudp.A4SocketsUDP</exec.mainClass>
     </properties>
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+            <dependency>
+                <groupId>org.postgresql</groupId>
+                <artifactId>postgresql</artifactId>
+                <version>42.4.3</version>
+            </dependency>
+    </dependencies>
 </project>
